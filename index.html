@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body background="C:\Users\UCS\Personal_Website\Personal_Website\Assets\image 3 (2).png">
+    <nav id="desktop-nav">
+      <div class="logo">Eshe Dogra</div>
+
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Eshe Dogra</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\EshePicture.png" alt="Eshe Dogra profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Eshe Dogra</h1>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick= "window.open('file:///C:/Users/UCS/Personal_Website/Personal_Website/Assets/Eshe_Dogra.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/eshe-dogra-b035011b5?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsUJ6CmMmTty08MKk6nVfNw%3D%3D'"
+          />
+          <img
+            src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/eshe030'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers" >
+            <div class="details-container"style="margin-left: -150px;">
+              <img
+                src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Frontend and AI Development intern <br /><b>Swalook</b>- Cloud based software development for salon services. </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech Computer Science<br /> Data Science</p>
+            </div>
+          </div>
+          <div class="text-container"style="margin-left: -150px;">
+            <p>
+                As a dedicated data science student, I passionately bridge the realms of data and celestial phenomena for
+                groundbreaking insights. My leadership aptitude fuels collaborative synergy within teams, propelling us
+                towards shared objectives. Through a practical approach, I swiftly unravel complex challenges. I embody
+                insatiable curiosity, driving relentless personal and collective growth.
+
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming And Frameworks</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\Python1.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\javascript.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\html.png"
+                  alt="Experience icon"
+                  class="icon" style="margin-left: -10px;"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\css.png"
+                  alt="Experience icon"
+                  class="icon" style="margin-left: -30px;"
+                />
+                <div>
+                  <h3 style="margin-left: -70px;">CSS</h3>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\SQL.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style ="margin-left: -10px;">SQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\R_logo.svg.png"
+                  alt="Experience icon"
+                  class="icon" style="margin-left: -50px;"
+                />
+                <div>
+                  <h3 style="margin-left: -60px;">R</h3>
+                </div>
+              </article>
+              <article>
+              <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\React1.png"
+                  alt="Experience icon"
+                  style="height: 50px" 
+                />
+                <div>
+                  <h3>React</h3>
+                </div>
+              </article>
+              <br>
+              <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\django-icon-0.jpg"
+                  alt="Experience icon"
+                  class="icon" style="margin-left: 0px;"
+                />
+                <div>
+                  <h3 style="margin-right: 30px;">Django</h3>
+                </div>
+              </article>
+              <article>
+              <br>
+              <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\nodejs.png"
+                  alt="Experience icon"
+                  class="icon"  
+                />
+                <div>
+                  <h3 style="margin-right: 40px;">Node.Js</h3>
+                </div> 
+              </article>
+              <article>
+                <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\tailwind-css-icon-1024x615-fdeis5r1.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="margin-right: 50px;">Tailwind CSS</h3>
+                </div>
+              </article>
+
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools And Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\Figma.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\github.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Github</h3>
+                
+                </div>
+                </article>
+                <article>
+                  <img
+                    src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\Docker.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Docker</h3>
+                  
+                  </div>
+                  </article>
+                <article>
+                <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\eng.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>English</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\hin.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Hindi</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\PUN.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Punjabi</h3>  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\jpn.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Japanese</h3>  
+                </div>
+              </article>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Projects</p>
+      <h1 class="title">Projects</h1>
+      <style>
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        
+        .active, .dot:hover {
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .prev, .next,.text {font-size: 11px}
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext" style="color: black;">1 / 5</div>
+          <img src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\Blog.png" style="width:100%">
+          <div class="text"> <button style="background-color: black; border: none; height: 40px; width: 60px; border-radius: 20px;"
+            onclick="location.href='https://github.com/Yash-9274/blogfinal'">
+            <l1 style="color: aliceblue;">Github</l1>
+          </button></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext" style="color: black;">2 / 5</div>
+          <img src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\Bot.png" style="width:100%">
+          <div class="text"><button style="background-color: black; border: none; height: 40px; width: 60px; border-radius: 20px;"
+          onclick="location.href='https://github.com/eshe030/VirtualAssistant'">
+          <l1 style="color: aliceblue;">Github</l1></button></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext" style="color: black;">3 / 5</div>
+          <img src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\Website.png" style="width:100%">
+          <div class="text"><button style="background-color: black; border: none; height: 40px; width: 60px; border-radius: 20px;"
+          onclick="location.href='https://drive.google.com/drive/folders/1zYLrb8Uj6gjIGQbBu6xJmGGSRypi8A3B?usp=sharing'">
+          <l1 style="color: aliceblue;">Drive</l1></button></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext" style="color: black;">4 / 5</div>
+          <img src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\Website-1.png" style="width:100%">
+          <div class="text"><button style="background-color: black; border: none; height: 40px; width: 60px; border-radius: 20px;"
+            onclick="location.href='https://drive.google.com/drive/folders/1pPeSWcDCsC4AgoRI0MSGWWmKeH3JVMt0?usp=sharing'">
+            <l1 style="color: aliceblue;">Drive</l1></button></div>
+        </div>
+
+        
+        <div class="mySlides fade">
+          <div class="numbertext" style="color: black;">4 / 5</div>
+          <img src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\Website-1 (1).png" style="width:100%">
+          <div class="text"><button style="background-color: black; border: none; height: 40px; width: 60px; border-radius: 20px;"
+            onclick="location.href='https://github.com/eshe030'">
+          <l1 style="color: aliceblue;">Github</l1></button></div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+        
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+    src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\email.png"
+    alt="Email icon"
+    class="icon contact-icon email-icon"
+/>
+<p><a href="mailto:eshedogra07@gmail.com">eshedogra07@gmail.com</a></p>
+          <img
+          src="C:\Users\UCS\Personal_Website\Personal_Website\Assets\email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+      />
+      <p><a href="mailto:eshe.dogra20@st.niituniversity.in">eshe.dogra20@st.niituniversity.in</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href=https://www.linkedin.com/in/eshe-dogra-b035011b5?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsUJ6CmMmTty08MKk6nVfNw%3D%3D">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </footer>
+    <script>
+      function toggleMenu() {
+    const menu = document.querySelector(".menu-links");
+    const icon = document.querySelector(".hamburger-icon");
+    menu.classList.toggle("open");
+    icon.classList.toggle("open");
+  }
+
+  $(document).ready(function() {
+    $('.project-slider').slick({
+        // Slick Carousel configuration options
+        infinite: false, // Don't loop
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        // Add more options as needed
+    });
+
+    // Handle slider navigation
+    $('.slider-prev').click(function() {
+        $('.project-slider').slick('slickPrev');
+    });
+
+    $('.slider-next').click(function() {
+        $('.project-slider').slick('slickNext');
+    });
+});
+
+
+    </script>
+  </body>
+</html>
