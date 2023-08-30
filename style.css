@@ -577,3 +577,8 @@ footer p {
     margin: 0 5%;
   }
 }
+
+.email-icon {
+  height: 2.5rem;
+  margin-left: 20px;
+}
