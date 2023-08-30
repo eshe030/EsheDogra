@@ -209,6 +209,7 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  margin-left: -20px;
 }
 
 /* BUTTONS */
@@ -292,6 +293,16 @@ section {
 }
 
 .details-container {
+  padding: 0.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  margin-right: 20px;
+}
+.details-container1 {
   padding: 0.5rem;
   flex: 1;
   background: white;
@@ -546,6 +557,7 @@ footer p {
     padding: 1rem 0;
   }
 
+
   .nav-links {
     flex-direction: column;
     gap: 1rem;
@@ -560,7 +572,7 @@ footer p {
 
   /* Example: Make the profile picture container full width */
   .section__pic-container {
-    width: 100%;
+    width: 80%;
     height: auto;
   }
 
@@ -574,4 +586,9 @@ footer p {
   section {
     margin: 0 5%;
   }
+
+  .details-container1{
+   margin-left: 100px;
+  }
+
 }
